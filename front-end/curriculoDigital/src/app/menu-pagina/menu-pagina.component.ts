@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { Router } from '@angular/router';
 import { Message } from '../model/Message';
 import { MessageService } from '../service/message.service';
 
@@ -12,7 +11,6 @@ export class MenuPaginaComponent implements OnInit {
 
   constructor(
     private messageService: MessageService,
-    private router: Router
   ) { }
 
   message: Message = new Message();

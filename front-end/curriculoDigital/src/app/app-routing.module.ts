@@ -1,3 +1,4 @@
+import { MenuPaginaComponent } from './menu-pagina/menu-pagina.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
